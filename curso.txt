@@ -1,0 +1,14 @@
+1. crear projecto DJango
+	django-admin startproject nombre
+
+2.crear apps (aplicaciones)
+	python manage.py startapp nombre
+	
+3. Iniciar servidor
+	python manage.py runserver
+	
+4. crear modelos a migtations
+	python manage.py makemigration
+	
+5. Migrar a la BD
+	python manage.py migrate
